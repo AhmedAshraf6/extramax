@@ -1,0 +1,316 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+ {currentLang == 'eng' ? (
+          <Swiper
+            slidesPerView={3}
+            spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
+            breakpoints={{
+              0: {
+                // width: 576,
+                slidesPerView: 1,
+              },
+              768: {
+                // width: 768,
+                slidesPerView: 2,
+              },
+              992: {
+                // width: 768,
+                slidesPerView: 3,
+              },
+            }}
+            modules={[Pagination]}
+            className='mySwiper'
+          >
+            <SwiperSlide>
+              <div className='box  py-5 px-4 bg-body rounded mx-1 my-1'>
+                <div className='icon text-center rounded-circle py-3 px-3 w-25 mb-3'>
+                  <GoQuote className='quote fs-1 fw-bold text-primary' />
+                </div>
+                <h5 className='lh-base text-secondary'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam voluptates nihil earum molestiae, recusandae
+                  eligendi!
+                </h5>
+                <div className='d-flex align-items-center mt-3'>
+                  <div>
+                    <img
+                      src={img1}
+                      alt=''
+                      className=' rounded-circle'
+                      style={{ width: '70px', height: '70px' }}
+                    />
+                  </div>
+                  <div className='content mx-3'>
+                    <h5 className='fw-bold mb-0 pb-0'>ahmed ashrf</h5>
+                    <span className='text-muted'>ceo orcale</span>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className='box  py-5 px-4 bg-body rounded mx-1 my-1'>
+                <div className='icon text-center rounded-circle py-3 px-3 w-25 mb-3'>
+                  <GoQuote className='quote fs-1 fw-bold text-primary' />
+                </div>
+                <h5 className='lh-base text-secondary'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam voluptates nihil earum molestiae, recusandae
+                  eligendi!
+                </h5>
+                <div className='d-flex align-items-center mt-3'>
+                  <div>
+                    <img
+                      src={img1}
+                      alt=''
+                      className=' rounded-circle'
+                      style={{ width: '70px', height: '70px' }}
+                    />
+                  </div>
+                  <div className='content mx-3'>
+                    <h5 className='fw-bold mb-0 pb-0'>ahmed ashrf</h5>
+                    <span className='text-muted'>ceo orcale</span>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className='box  py-5 px-4 bg-body rounded mx-1 my-1'>
+                <div className='icon text-center rounded-circle py-3 px-3 w-25 mb-3'>
+                  <GoQuote className='quote fs-1 fw-bold text-primary' />
+                </div>
+                <h5 className='lh-base text-secondary'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam voluptates nihil earum molestiae, recusandae
+                  eligendi!
+                </h5>
+                <div className='d-flex align-items-center mt-3'>
+                  <div>
+                    <img
+                      src={img1}
+                      alt=''
+                      className=' rounded-circle'
+                      style={{ width: '70px', height: '70px' }}
+                    />
+                  </div>
+                  <div className='content mx-3'>
+                    <h5 className='fw-bold mb-0 pb-0'>ahmed ashrf</h5>
+                    <span className='text-muted'>ceo orcale</span>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className='box  py-5 px-4 bg-body rounded mx-1 my-1'>
+                <div className='icon text-center rounded-circle py-3 px-3 w-25 mb-3'>
+                  <GoQuote className='quote fs-1 fw-bold text-primary' />
+                </div>
+                <h5 className='lh-base text-secondary'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam voluptates nihil earum molestiae, recusandae
+                  eligendi!
+                </h5>
+                <div className='d-flex align-items-center mt-3'>
+                  <div>
+                    <img
+                      src={img1}
+                      alt=''
+                      className=' rounded-circle'
+                      style={{ width: '70px', height: '70px' }}
+                    />
+                  </div>
+                  <div className='content mx-3'>
+                    <h5 className='fw-bold mb-0 pb-0'>ahmed ashrf</h5>
+                    <span className='text-muted'>ceo orcale</span>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className='box  py-5 px-4 bg-body rounded mx-1 my-1'>
+                <div className='icon text-center rounded-circle py-3 px-3 w-25 mb-3'>
+                  <GoQuote className='quote fs-1 fw-bold text-primary' />
+                </div>
+                <h5 className='lh-base text-secondary'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam voluptates nihil earum molestiae, recusandae
+                  eligendi!
+                </h5>
+                <div className='d-flex align-items-center mt-3'>
+                  <div>
+                    <img
+                      src={img1}
+                      alt=''
+                      className=' rounded-circle'
+                      style={{ width: '70px', height: '70px' }}
+                    />
+                  </div>
+                  <div className='content mx-3'>
+                    <h5 className='fw-bold mb-0 pb-0'>ahmed ashrf</h5>
+                    <span className='text-muted'>ceo orcale</span>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        ) : (
+          <Swiper
+            dir='rtl'
+            slidesPerView={3}
+            spaceBetween={30}
+            pagination={{
+              clickable: true,
+            }}
+            breakpoints={{
+              0: {
+                // width: 576,
+                slidesPerView: 1,
+              },
+              768: {
+                // width: 768,
+                slidesPerView: 2,
+              },
+              992: {
+                // width: 768,
+                slidesPerView: 3,
+              },
+            }}
+            modules={[Pagination]}
+            className='mySwiper'
+          >
+            <SwiperSlide>
+              <div className='box  py-5 px-4 bg-body rounded mx-1 my-1'>
+                <div className='icon text-center rounded-circle py-3 px-3 w-25 mb-3'>
+                  <GoQuote className='quote fs-1 fw-bold text-primary' />
+                </div>
+                <h5 className='lh-base text-secondary'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam voluptates nihil earum molestiae, recusandae
+                  eligendi!
+                </h5>
+                <div className='d-flex align-items-center mt-3'>
+                  <div>
+                    <img
+                      src={img1}
+                      alt=''
+                      className=' rounded-circle'
+                      style={{ width: '70px', height: '70px' }}
+                    />
+                  </div>
+                  <div className='content mx-3'>
+                    <h5 className='fw-bold mb-0 pb-0'>ahmed ashrf</h5>
+                    <span className='text-muted'>ceo orcale</span>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className='box  py-5 px-4 bg-body rounded mx-1 my-1'>
+                <div className='icon text-center rounded-circle py-3 px-3 w-25 mb-3'>
+                  <GoQuote className='quote fs-1 fw-bold text-primary' />
+                </div>
+                <h5 className='lh-base text-secondary'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam voluptates nihil earum molestiae, recusandae
+                  eligendi!
+                </h5>
+                <div className='d-flex align-items-center mt-3'>
+                  <div>
+                    <img
+                      src={img1}
+                      alt=''
+                      className=' rounded-circle'
+                      style={{ width: '70px', height: '70px' }}
+                    />
+                  </div>
+                  <div className='content mx-3'>
+                    <h5 className='fw-bold mb-0 pb-0'>ahmed ashrf</h5>
+                    <span className='text-muted'>ceo orcale</span>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className='box  py-5 px-4 bg-body rounded mx-1 my-1'>
+                <div className='icon text-center rounded-circle py-3 px-3 w-25 mb-3'>
+                  <GoQuote className='quote fs-1 fw-bold text-primary' />
+                </div>
+                <h5 className='lh-base text-secondary'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam voluptates nihil earum molestiae, recusandae
+                  eligendi!
+                </h5>
+                <div className='d-flex align-items-center mt-3'>
+                  <div>
+                    <img
+                      src={img1}
+                      alt=''
+                      className=' rounded-circle'
+                      style={{ width: '70px', height: '70px' }}
+                    />
+                  </div>
+                  <div className='content mx-3'>
+                    <h5 className='fw-bold mb-0 pb-0'>ahmed ashrf</h5>
+                    <span className='text-muted'>ceo orcale</span>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className='box  py-5 px-4 bg-body rounded mx-1 my-1'>
+                <div className='icon text-center rounded-circle py-3 px-3 w-25 mb-3'>
+                  <GoQuote className='quote fs-1 fw-bold text-primary' />
+                </div>
+                <h5 className='lh-base text-secondary'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam voluptates nihil earum molestiae, recusandae
+                  eligendi!
+                </h5>
+                <div className='d-flex align-items-center mt-3'>
+                  <div>
+                    <img
+                      src={img1}
+                      alt=''
+                      className=' rounded-circle'
+                      style={{ width: '70px', height: '70px' }}
+                    />
+                  </div>
+                  <div className='content mx-3'>
+                    <h5 className='fw-bold mb-0 pb-0'>ahmed ashrf</h5>
+                    <span className='text-muted'>ceo orcale</span>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className='box  py-5 px-4 bg-body rounded mx-1 my-1'>
+                <div className='icon text-center rounded-circle py-3 px-3 w-25 mb-3'>
+                  <GoQuote className='quote fs-1 fw-bold text-primary' />
+                </div>
+                <h5 className='lh-base text-secondary'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam voluptates nihil earum molestiae, recusandae
+                  eligendi!
+                </h5>
+                <div className='d-flex align-items-center mt-3'>
+                  <div>
+                    <img
+                      src={img1}
+                      alt=''
+                      className=' rounded-circle'
+                      style={{ width: '70px', height: '70px' }}
+                    />
+                  </div>
+                  <div className='content mx-3'>
+                    <h5 className='fw-bold mb-0 pb-0'>ahmed ashrf</h5>
+                    <span className='text-muted'>ceo orcale</span>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        )}

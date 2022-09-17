@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/extramax/static/css/main.17902a29.css",
+    "main.js": "/extramax/static/js/main.055b72c3.js",
+    "static/media/sec13.jpg": "/extramax/static/media/sec13.b5d6c8a980f1330c2d0b.jpg",
+    "static/media/backsec1.png": "/extramax/static/media/backsec1.7939ba39f252c62dfe16.png",
+    "static/media/header.jpg": "/extramax/static/media/header.1043a471712619a0d984.jpg",
+    "static/media/1.jpeg": "/extramax/static/media/1.c5b05a81d4898800a2af.jpeg",
+    "static/media/sec52.jpeg": "/extramax/static/media/sec52.1f98c67103b09e37bda1.jpeg",
+    "static/media/sec31.jpg": "/extramax/static/media/sec31.f32c06b6c9a4852d7268.jpg",
+    "static/media/sec51.jpg": "/extramax/static/media/sec51.4f178761b775d95bc768.jpg",
+    "static/media/sec12.jpg": "/extramax/static/media/sec12.957fc5cb839d63959672.jpg",
+    "static/media/sec11.jpg": "/extramax/static/media/sec11.c144b8bce2f25c4ce342.jpg",
+    "static/media/sec32.jpg": "/extramax/static/media/sec32.89de9a54651d17c48c4f.jpg",
+    "static/media/sec53.jpg": "/extramax/static/media/sec53.9569e9ea0d65dcdad518.jpg",
+    "static/media/backsec6.jpg": "/extramax/static/media/backsec6.a865367e6e853873a501.jpg",
+    "index.html": "/extramax/index.html",
+    "main.17902a29.css.map": "/extramax/static/css/main.17902a29.css.map",
+    "main.055b72c3.js.map": "/extramax/static/js/main.055b72c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17902a29.css",
+    "static/js/main.055b72c3.js"
+  ]
+}
