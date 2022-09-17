@@ -1,0 +1,223 @@
+{
+  "Navbar": {
+    "title": "Extra",
+    "title2": "max",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "pricing": "Pricing",
+      "contact": "Contact"
+    },
+    "button": "العربية",
+    "currentlang": "ar",
+    "phonetitle": "Free Consultant",
+    "phone": "+20 123109921"
+  },
+
+  "homePage": {
+    "Header": {
+      "h2": "TECHNOLOGY RELETED CONSULTANCY",
+      "h3": "Fast, reliable & afforadble IT service for you",
+      "btn": "Read More"
+    },
+    "Section1": {
+      "title": "WHO WE ARE",
+      "h1": "We specialise in helping our customers digitise their business",
+      "p": "Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of incredible freelance talent for all your software development needs.",
+      "leadername": "Abu Hamdan",
+      "jop": "CEO, Techmax",
+      "card1": "Data Security",
+      "card2": "It Management",
+      "card3": "Digital Marketing"
+    },
+    "Section2": {
+      "p": "Step forward to become one of",
+      "span": "49,494",
+      "p2": "successful clients"
+    },
+    "Section3": {
+      "head": "We run all kinds of",
+      "headSpan": "IT services",
+      "head2": "that vow your success",
+      "p": "Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of incredible freelance talent for all your software development needs.",
+      "conIcon1": "Professional IT Team",
+      "conIcon2": "Quality check Expert",
+      "conIcon3": "24/7 dedicated Support"
+    },
+    "Section4": {
+      "num": "35",
+      "headnum": "Years of experience",
+      "h11": "We specialise in helping",
+      "span": "customers digitise",
+      "h12": "business Including IT",
+      "h31": "IT Management ",
+      "h32": "Networking & Resource Mangment  ",
+      "h33": "Data Security",
+      "numIcon1": "354",
+      "conIcon1": "Completed Projects",
+      "numIcon2": "119",
+      "conIcon2": "Satisfied Clients",
+      "numIcon3": "99",
+      "conIcon3": "Web Site Analyse",
+      "numIcon4": "321",
+      "conIcon4": "Clients Supoort Done"
+    },
+    "Section5": {
+      "head": "love our service & IT releted solutions",
+      "headspan": "20k+ clients",
+      "cardquote1": "Accelerate innovation with world-class tech teams Beyond more stoic this along goodness hey this this wow manatee",
+      "cardtitle1": "Ahmed Juffali",
+      "cardjop1": "ْCEO, Airbnp",
+      "cardquote2": "Accelerate innovation with world-class tech teams Beyond more stoic this along goodness hey this this wow manatee",
+      "cardtitle2": "Ahmed bin Abdulaziz",
+      "cardjop2": "ْCEO, Orcale",
+      "cardquote3": "Accelerate innovation with world-class tech teams Beyond more stoic this along goodness hey this this wow manatee",
+      "cardtitle3": "Ahmed Jamjoom",
+      "cardjop3": "ْCEO, Tesla",
+      "cardquote4": "Accelerate innovation with world-class tech teams Beyond more stoic this along goodness hey this this wow manatee",
+      "cardtitle4": "gamal kamel",
+      "cardjop4": "ْCEO, Armics"
+    },
+    "Section6": {
+      "head": "Let's make something beautiful together with us",
+      "call": "Call us for fast support",
+      "num": "+20 12001212"
+    }
+  },
+
+  "About": {
+    "title": "About Us",
+    "link": "/",
+    "linkName": "Home",
+    "Section1": {
+      "h5": "WHO WE ARE",
+      "head": "We specialise in helping our customers digitise their business",
+      "p": "Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of incredible freelance talent for all your software development needs.",
+      "boss": "Abu Hamdan",
+      "jop": "CEO, Techmax",
+      "check": [
+        "Solving complex problems",
+        "We guarantee trusted service.",
+        " Experts in technology fields"
+      ]
+    },
+    "Section2": {
+      "cardTitles": [
+        "Strategy & Discovery",
+        "Business Growth",
+        "IT Consulting"
+      ],
+      "cardParagraph": [
+        "Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of incredible freelance"
+      ],
+      "num": "25",
+      "numSpan": "Years of experience",
+      "head1": "We run all kinds of",
+      "headSpan": "IT services",
+      "head2": "that vow your success",
+      "progress": ["IT Managment", "Data Security", "Solution"],
+      "progressNum": ["80", "90", "70"]
+    }
+  },
+
+  "Services": {
+    "title": "Our Services",
+    "link": "/",
+    "linkName": "Home",
+    "Section1": {
+      "head1": "We run all kinds of ",
+      "spanHead": "IT services",
+      "head2": "that vow your success",
+      "cardsTitles": [
+        "Analysis",
+        "Digital marketing",
+        "Data Security",
+        "Innovation",
+        "Seo & Optimization",
+        "Email Marketing"
+      ],
+
+      "paragraph": "Accelerate innovation with world-class tech teams. Our all service offerings to enhance Our experience makes us stand out from other web development."
+    }
+  },
+
+  "Pricing": {
+    "title": "Pricing",
+    "link": "/",
+    "linkName": "Home",
+    "Section1": {
+      "head1": "Best",
+      "spanHead": "pricing",
+      "head2": "for all",
+      "paragraph": "Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of incredible freelance talent.",
+      "titles": ["Free", "Business", "Professional"],
+      "pricing": ["25", "125", "225"],
+      "kinds": [
+        "For Smaller Business",
+        "For Growth Business",
+        "For Top Business"
+      ],
+      "benfits": [
+        "1 Projects",
+        "Unlimited pages for sitemap",
+        "User Permissions",
+        "Dashboard Acess",
+        "Custom Domain"
+      ],
+      "buttons": ["Get Started", "Contact Us"]
+    }
+  },
+
+  "Contact": {
+    "title": "Contact Us",
+    "link": "/",
+    "linkName": "Home",
+    "Section1": {
+      "head": ["Telephone", "Mail Address", "Location"],
+      "span": [
+        "+91 458 654 528",
+        "info@example.com",
+        "65th Street, Saudi Arbia"
+      ]
+    },
+    "Section2": {
+      "head": "Get Support from our Team",
+      "placeholders": [
+        "Your Name",
+        "Your Email",
+        "Your Number",
+        "Subject",
+        "Write A Message"
+      ],
+      "button": "Send Message"
+    }
+  },
+
+  "Footer": {
+    "contact": {
+      "title": "Extra",
+      "title2": "max",
+      "phone": "+91 458 654 528",
+      "email": "info@example.com",
+      "location": "60 East 65th Street, Saudi Arbia"
+    },
+    "useful_links_array": [
+      "Terms & Conditions",
+      "About Company",
+      "Payment Gatway",
+      "Policy"
+    ],
+    "services_array": [
+      "Data Security",
+      "IT Managment",
+      "Outsourcing",
+      "Networking"
+    ],
+    "support_array": ["Documentation", "Support", "FAQS", "Download"],
+    "usefulLinks": "Useful Links",
+    "ourServices": "Our Services",
+    "support": "Support",
+    "copyright": "© Copyrights 2022 Ahmed Ashraf All rights reserved."
+  }
+}
