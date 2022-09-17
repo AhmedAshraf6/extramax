@@ -90,15 +90,30 @@ const Footer = () => {
         <div className='d-flex flex-column flex-sm-row justify-content-between align-items-center py-4'>
           <h6 className='fw-bold text-secondary'>{copyright}</h6>
           <div className='d-flex align-items-center'>
-            <div className='icon pointer py-2 px-2 text-center rounded-circle ms-2'>
+            <a
+              className='icon pointer py-2 px-2 text-center rounded-circle ms-2'
+              href='https://www.facebook.com/ahmedashraf.ahmedashraf.353'
+              target='_blank'
+            >
               <FaFacebook className='social-icon text-light fs-4 fw-bold ' />
-            </div>
-            <div className='icon pointer py-2 px-2 text-center rounded-circle ms-2'>
+            </a>
+            <a
+              className='icon pointer py-2 px-2 text-center rounded-circle ms-2'
+              href='https://www.linkedin.com/in/ahmed-ashraf6/'
+              target='_blank'
+            >
               <BsTwitter className='social-icon text-light fs-4 fw-bold ' />
-            </div>
-            <div className='icon pointer py-2 px-2 text-center rounded-circle ms-2'>
-              <GrLinkedinOption className='social-icon text-light fs-4 fw-bold ' />
-            </div>
+            </a>
+            <a
+              className='icon pointer py-2 px-2 text-center rounded-circle ms-2'
+              href='https://www.linkedin.com/in/ahmed-ashraf6/'
+              target='_blank'
+            >
+              <GrLinkedinOption
+                className='social-icon text-light fs-4 fw-bold '
+                href='https://www.linkedin.com/in/ahmed-ashraf6/'
+              />
+            </a>
           </div>
         </div>
       </div>
