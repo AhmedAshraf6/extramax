@@ -83,6 +83,29 @@
       "head": "Let's make something beautiful together with us",
       "call": "Call us for fast support",
       "num": "+20 12001212"
+    },
+    "Section7": {
+      "faq": "Frequently asked quetions",
+      "questions": [
+        {
+          "num": "01",
+          "title": " How Long it takes finished projects?",
+          "paragraph": "Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of incredible freelance talent for all your software.",
+          "arrange": "One"
+        },
+        {
+          "num": "02",
+          "title": "  Support & Policy",
+          "paragraph": "Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of incredible freelance talent for all your software.",
+          "arrange": "Two"
+        },
+        {
+          "num": "03",
+          "title": " Refund Solution",
+          "paragraph": "Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of incredible freelance talent for all your software.",
+          "arrange": "Three"
+        }
+      ]
     }
   },
 
@@ -118,6 +141,37 @@
       "head2": "that vow your success",
       "progress": ["IT Managment", "Data Security", "Solution"],
       "progressNum": ["80", "90", "70"]
+    },
+
+    "Section5": {
+      "col1": {
+        "quick": "Need a Quick Query?",
+        "contactInfo": [
+          {
+            "title": "Contact Number",
+            "value": "+20 2100021"
+          },
+          {
+            "title": "Our Mail",
+            "value": "info@example.com"
+          },
+          {
+            "title": "Our Location",
+            "value": "60 East 65th Street, Saudi Arbia"
+          }
+        ]
+      },
+      "col2": {
+        "message": "LEAVE US MASSAGE",
+        "help": "How May We Help You!",
+        "inputs": [
+          "Name",
+          "Email",
+          "Subject",
+          "Write A Message",
+          "Send Message"
+        ]
+      }
     }
   },
 

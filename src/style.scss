@@ -284,6 +284,28 @@ body {
 }
 /* Home Section 6 */
 
+/* Home Section 7 */
+.home-section7 {
+  .accordion-button:last-child:hover {
+    color: $primary;
+  }
+  .accordion-button:not(.collapsed) {
+    color: $dark !important;
+    background-color: $light !important;
+  }
+  .number {
+    background-color: #f2f2f2;
+    font-family: 'Manrope', sans-serif !important;
+  }
+  .custom-icon {
+    &::after {
+      margin-left: 0 !important;
+      margin-right: auto !important;
+    }
+  }
+}
+/* Home Section 6 */
+
 /* Footer */
 .footer {
   background-image: url(./imgs/footer-bg.jpg);
@@ -432,6 +454,55 @@ body {
     }
   }
 }
+/* About Section 3 */
+.about-section3 {
+  background-image: url(./imgs/homepage/backsec1.png);
+  background-size: cover;
+  background-position: center center;
+  background-color: #09091d;
+  .card {
+    background-color: transparent;
+  }
+  .num {
+    h1 {
+      font-size: 110px;
+      @media (max-width: 767px) {
+        font-size: 90px !important;
+      }
+    }
+  }
+  .exp {
+    @media (max-width: 767px) {
+      align-items: start !important;
+    }
+    .num,
+    .head {
+      @media (max-width: 1200px) {
+        margin: 0 !important;
+      }
+    }
+  }
+  .counter {
+    h5 {
+      font-family: 'Manrope', sans-serif !important;
+    }
+    .icon {
+      font-size: 60px !important;
+    }
+  }
+}
+/* About Section 3 */
+
+/* About Section 5 */
+.about-section5 {
+  background-image: url(./imgs/about/sec51.jpg);
+  background-size: cover;
+  background-position: center center;
+  .card {
+    border: none;
+  }
+}
+/* About Section 5 */
 /* About Us */
 
 /* Pricing */

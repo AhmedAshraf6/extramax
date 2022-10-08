@@ -8,6 +8,7 @@ import HomeSection5 from '../components/home/HomeSection5';
 import HomeSection6 from '../components/home/HomeSection6';
 import { useEffect } from 'react';
 import { useGlobalContext } from '../contexts/LangugeContextApi';
+import HomeSection7 from '../components/home/HomeSection7';
 const Home = () => {
   // const { loading, loadingStatusFunc } = useGlobalContext();
   // useEffect(() => {
@@ -25,6 +26,7 @@ const Home = () => {
       <HomeSection4 />
       <HomeSection5 />
       <HomeSection6 />
+      <HomeSection7 />
     </div>
   );
 };

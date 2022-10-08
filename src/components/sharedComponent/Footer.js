@@ -21,7 +21,7 @@ const Footer = () => {
     copyright,
   } = lang.Footer;
   return (
-    <div className='footer pt-4 pt-md-6 mt-5'>
+    <div className='footer pt-4 pt-md-6'>
       {/* <div class='spinner-grow' role='status'>
         <span class='visually-hidden'>Loading...</span>
       </div> */}
