@@ -10,15 +10,8 @@ import { useEffect } from 'react';
 import { useGlobalContext } from '../contexts/LangugeContextApi';
 import HomeSection7 from '../components/home/HomeSection7';
 const Home = () => {
-  // const { loading, loadingStatusFunc } = useGlobalContext();
-  // useEffect(() => {
-  //   loadingStatusFunc(true);
-  //   setTimeout(() => {
-  //     loadingStatusFunc(false);
-  //   }, 7000);
-  // }, []);
   return (
-    <div className='home  '>
+    <div className='home'>
       <HomeHeader />
       <HomeSection1 />
       <HomeSection2 />

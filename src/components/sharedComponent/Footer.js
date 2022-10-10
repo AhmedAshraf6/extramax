@@ -6,8 +6,9 @@ import { HiOutlineMailOpen } from 'react-icons/hi';
 import { FaFacebook } from 'react-icons/fa';
 import { BsTwitter } from 'react-icons/bs';
 import { GrLinkedinOption } from 'react-icons/gr';
-
 import { useGlobalContext } from '../../contexts/LangugeContextApi';
+import ScrollToTop from 'react-scroll-to-top';
+
 const Footer = () => {
   const { lang } = useGlobalContext();
   const {
@@ -25,6 +26,8 @@ const Footer = () => {
       {/* <div class='spinner-grow' role='status'>
         <span class='visually-hidden'>Loading...</span>
       </div> */}
+      <ScrollToTop smooth color='#0d6efd' />
+
       <div className='container'>
         <div className='row gy-3'>
           <div className='col-sm-6 col-lg'>
