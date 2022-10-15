@@ -6,6 +6,10 @@ import img3 from '../../imgs/services/sec14.png';
 import img4 from '../../imgs/services/sec15.png';
 import img5 from '../../imgs/services/sec16.png';
 import { useGlobalContext } from '../../contexts/LangugeContextApi';
+// for animation on scroll
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const ServicesSection1 = () => {
   const { lang } = useGlobalContext();
@@ -16,6 +20,9 @@ const ServicesSection1 = () => {
     cardsTitles: [a, b, c, d, e, f],
     paragraph,
   } = lang.Services.Section1;
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className='services-section1 my-3 my-md-5'>
       <div className='container'>
@@ -24,7 +31,7 @@ const ServicesSection1 = () => {
           {head2}
         </h1>
         <div className='row gy-3'>
-          <div className='col-sm-6 col-lg-4'>
+          <div className='col-sm-6 col-lg-4' data-aos='fade-up'>
             <div className='card text-center  py-2 py-md-5'>
               <img
                 src={img0}
@@ -41,7 +48,7 @@ const ServicesSection1 = () => {
               </div>
             </div>
           </div>
-          <div className='col-sm-6 col-lg-4'>
+          <div className='col-sm-6 col-lg-4' data-aos='fade-up'>
             <div className='card text-center  py-2 py-md-5'>
               <img
                 src={img1}
@@ -58,7 +65,7 @@ const ServicesSection1 = () => {
               </div>
             </div>
           </div>
-          <div className='col-sm-6 col-lg-4'>
+          <div className='col-sm-6 col-lg-4' data-aos='fade-up'>
             <div className='card text-center  py-2 py-md-5'>
               <img
                 src={img2}
@@ -75,7 +82,7 @@ const ServicesSection1 = () => {
               </div>
             </div>
           </div>
-          <div className='col-sm-6 col-lg-4'>
+          <div className='col-sm-6 col-lg-4' data-aos='fade-up'>
             <div className='card text-center  py-2 py-md-5'>
               <img
                 src={img3}
@@ -92,7 +99,7 @@ const ServicesSection1 = () => {
               </div>
             </div>
           </div>
-          <div className='col-sm-6 col-lg-4'>
+          <div className='col-sm-6 col-lg-4' data-aos='fade-up'>
             <div className='card text-center  py-2 py-md-5'>
               <img
                 src={img4}
@@ -109,7 +116,7 @@ const ServicesSection1 = () => {
               </div>
             </div>
           </div>
-          <div className='col-sm-6 col-lg-4'>
+          <div className='col-sm-6 col-lg-4' data-aos='fade-up'>
             <div className='card text-center  py-2 py-md-5'>
               <img
                 src={img5}

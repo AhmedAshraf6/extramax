@@ -4,6 +4,10 @@ import { BiPhoneCall } from 'react-icons/bi';
 import { MdOutlineLocationOn } from 'react-icons/md';
 import { HiOutlineMailOpen } from 'react-icons/hi';
 import brand1 from '../../imgs/brands/brand-1.png';
+// for animation on scroll
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const AboutSection5 = () => {
   const { lang } = useGlobalContext();
@@ -15,12 +19,17 @@ const AboutSection5 = () => {
       inputs: [a, b, c, d, e],
     },
   } = lang.About.Section5;
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className='about-section5 py-3 py-md-6 mt-5 text-light'>
       <div className='container'>
         <div className='row g-5 '>
           <div className='col-lg-5 '>
-            <h1 className='mb-3 mb-md-3'>{quick}</h1>
+            <h1 className='mb-3 mb-md-3' data-aos='fade-down'>
+              {quick}
+            </h1>
             <div className='card mb-3 px-3 bg-transparent '>
               <div className='row card-border align-items-center border-bottom border-light border-2 '>
                 <div className='col-md-1'>

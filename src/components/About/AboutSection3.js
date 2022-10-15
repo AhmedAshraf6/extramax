@@ -6,6 +6,7 @@ import { FaLongArrowAltRight, FaLongArrowAltLeft } from 'react-icons/fa';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 import { useGlobalContext } from '../../contexts/LangugeContextApi';
+
 const AboutSection3 = () => {
   const { lang, currentLang } = useGlobalContext();
   const [counterOn, setCounterOn] = useState(false);
@@ -27,6 +28,7 @@ const AboutSection3 = () => {
     conIcon3,
     conIcon4,
   } = lang.homePage.Section4;
+
   return (
     <section className='about-section3 py-3 py-md-6 mt-5 text-light'>
       <div className='container'>

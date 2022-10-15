@@ -6,6 +6,11 @@ import img4 from '../../imgs/about/sec24.jpg';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 import { useGlobalContext } from '../../contexts/LangugeContextApi';
+// for animation on scroll
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const AboutSection2 = () => {
   const { lang } = useGlobalContext();
   const [counterOn, setCounterOn] = useState(false);
@@ -21,14 +26,17 @@ const AboutSection2 = () => {
     progress: [pa, pb, pc],
     progressNum: [pnum1, pnum2, pnum3],
   } = lang.About.Section2;
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className='about-section2'>
       <div className='container'>
         {/* Start Cards */}
         <div className='row gy-3'>
-          <div className='col-sm-6 col-lg'>
+          <div className='col-sm-6 col-lg' data-aos='fade-right'>
             {/* Card 1 */}
-            <div className='card text-center border-0 py-2 py-md-5'>
+            <div className='card text-center border-0 py-2 py-md-5 h-100'>
               <img
                 src={img1}
                 className='card-img-top mx-auto mt-2 rounded-circle p-4'
@@ -49,7 +57,7 @@ const AboutSection2 = () => {
           </div>
           <div className='col-sm-6 col-lg'>
             {/* Card 1 */}
-            <div className='card text-center border-0 py-2 py-md-5'>
+            <div className='card text-center border-0 py-2 py-md-5 h-100'>
               <img
                 src={img2}
                 className='card-img-top mx-auto mt-2 rounded-circle p-4'
@@ -68,9 +76,9 @@ const AboutSection2 = () => {
               </div>
             </div>
           </div>
-          <div className='col-sm-6 col-lg'>
+          <div className='col-sm-6 col-lg' data-aos='fade-left'>
             {/* Card 1 */}
-            <div className='card text-center border-0 py-2 py-md-5'>
+            <div className='card text-center border-0 py-2 py-md-5 h-100'>
               <img
                 src={img3}
                 className='card-img-top mx-auto mt-2 rounded-circle p-4'

@@ -3,6 +3,11 @@ import { BsCheckLg } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
 import { useGlobalContext } from '../../contexts/LangugeContextApi';
+// for animation on scroll
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const PricingSection1 = () => {
   const { lang } = useGlobalContext();
   const {
@@ -16,17 +21,20 @@ const PricingSection1 = () => {
     benfits,
     buttons,
   } = lang.Pricing.Section1;
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className='pricing-section1 my-5'>
       <div className='container'>
-        <h1 className='text-center fw-bold my-4'>
+        <h1 className='text-center fw-bold my-4' data-aos='zoom-in'>
           {head1} <span className='text-primary'>{spanHead}</span>
           {head2}
         </h1>
         <p className='paragraph text-center text-scondary lh-base w-50 mx-auto my-4'>
           {paragraph}
         </p>
-        <div className='row gy-3'>
+        <div className='row gy-3' data-aos='fade-up'>
           <div className='col-md-6 col-xl'>
             <div className='card border-0 border-top border-primary border-5 py-2 py-md-4 shadow shadow-2'>
               <div className='card-body'>

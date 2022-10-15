@@ -6,6 +6,11 @@ import img3 from '../../imgs/about/sec13.jpg';
 import img4 from '../../imgs/about/sec14.png';
 import img5 from '../../imgs/about/sec15.png';
 import { useGlobalContext } from '../../contexts/LangugeContextApi';
+// for animation on scroll
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const AboutSection1 = () => {
   const { lang } = useGlobalContext();
   const {
@@ -16,6 +21,9 @@ const AboutSection1 = () => {
     jop,
     check: [a, b, c],
   } = lang.About.Section1;
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className='about-section1 my-4 my-md-6 '>
       <div className='container'>
@@ -37,7 +45,9 @@ const AboutSection1 = () => {
           <div className='col-lg'>
             <div className='right'>
               <h6 className='text-primary fw-bold'>{h5}</h6>
-              <h1 className='lg-base mt-4'>{head}</h1>
+              <h1 className='lg-base mt-4' data-aos='zoom-in'>
+                {head}
+              </h1>
               <p className='lead lh-base mt-4'>{p}</p>
 
               <div className='d-flex flex-column flex-sm-row mt-4'>
@@ -49,7 +59,7 @@ const AboutSection1 = () => {
                     <img src={img3} alt='' className='img rounded-circle' />
                   </div>
                 </div>
-                <div className='list'>
+                <div className='list' data-aos='fade-up'>
                   <div className='d-flex align-items-center'>
                     <BsCheckLg className='text-primary mx-2' />
                     <h6>{a}</h6>
