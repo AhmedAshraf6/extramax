@@ -14,6 +14,10 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper';
 import { useGlobalContext } from '../../contexts/LangugeContextApi';
+// for animation on scroll
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 const HomeSection5 = () => {
   const { lang, currentLang } = useGlobalContext();
   const {
@@ -32,10 +36,13 @@ const HomeSection5 = () => {
     cardtitle4,
     cardjop4,
   } = lang.homePage.Section5;
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section className='home-section5 mt-5'>
       <div className='container'>
-        <h1 className='text-center fw-bold my-5'>
+        <h1 className='text-center fw-bold my-5' data-aos='flip-up'>
           <span className='text-primary'>{headspan} </span>
           {head}
         </h1>

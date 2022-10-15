@@ -1,29 +1,50 @@
-import React from 'react';
-import { useGlobalContext } from '../../contexts/LangugeContextApi';
-const HomeSection7 = () => {
-  const { lang } = useGlobalContext();
-  const { head, call, num } = lang.homePage.Section7;
-  return <section className='home-section7 py-5 mt-5'></section>;
-};
+import React from 'react'; import { useGlobalContext } from
+'../../contexts/LangugeContextApi'; const HomeSection7 = () => { const { lang }
+= useGlobalContext(); const { head, call, num } = lang.homePage.Section7; return
+<section className="home-section7 py-5 mt-5"></section>
+; }; export default HomeSection7;
 
-export default HomeSection7;
-
-
-  <div class="accordion-item">
-
-    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+<div class="accordion-item">
+  <div
+    id="flush-collapseOne"
+    class="accordion-collapse collapse"
+    aria-labelledby="flush-headingOne"
+    data-bs-parent="#accordionFlushExample"
+  >
+    <div class="accordion-body">
+      Placeholder content for this accordion, which is intended to demonstrate
+      the <code>.accordion-flush</code> class. This is the first item's
+      accordion body.
     </div>
   </div>
-  <div class="accordion-item">
-
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+</div>
+<div class="accordion-item">
+  <div
+    id="flush-collapseTwo"
+    class="accordion-collapse collapse"
+    aria-labelledby="flush-headingTwo"
+    data-bs-parent="#accordionFlushExample"
+  >
+    <div class="accordion-body">
+      Placeholder content for this accordion, which is intended to demonstrate
+      the <code>.accordion-flush</code> class. This is the second item's
+      accordion body. Let's imagine this being filled with some actual content.
     </div>
   </div>
+</div>
 
-      <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
+<h2 class="accordion-header" id="flush-headingOne">
+  <button
+    class="accordion-button collapsed"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#flush-collapseOne"
+    aria-expanded="false"
+    aria-controls="flush-collapseOne"
+  >
+    Accordion Item #1
+  </button>
+</h2>
+
+// for animation on scroll import AOS from 'aos'; import 'aos/dist/aos.css';
+import { useEffect } from 'react'; useEffect(() => { AOS.init(); }, []);
